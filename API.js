@@ -1,5 +1,5 @@
 // Cargar el JSON desde la URL
-fetch('http://localhost:5501/PeriodicTableJSON.json')
+fetch('http://localhost/taller1/PeriodicTableJSON.json')
 .then(response => response.json())
 .then(data => {
   // Crear un objeto donde los números atómicos sean las claves
