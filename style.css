@@ -1,6 +1,14 @@
+h1{
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    margin-top: 20px;
+    font-family: 'Arial', sans-serif;
+}
 table {
     border-collapse: separate;
     border-spacing: 2px;
+    margin: auto;
 }
 td {
     width: 50px;
@@ -23,3 +31,34 @@ td {
 .diatomic-nonmetal { background-color: #e7ff8f; }
 .noble-gas { background-color: #c0ffff; }
 .unknown { background-color: #e8e8e8; }
+
+#info-elemento {
+    background-color: #ffffff; 
+    border: 1px solid #ccc;    
+    border-radius: 10px;       
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 20px;            
+    margin-top: 20px;         
+    width: 90vh;              
+    font-family: 'Arial', sans-serif; 
+    color: #333;               
+    transition: all 0.3s ease; 
+  }
+  
+  #info-elemento h2 {
+    margin-top: 0;             
+    font-size: 24px;          
+    color: #2c3e50;           
+  }
+  
+  #info-elemento p {
+    font-size: 16px;         
+    line-height: 1.5;         
+    margin: 5px 0;            
+  }
+  
+  #info-elemento p span {
+    font-weight: bold;         
+    color: #2980b9;            
+  }
+  

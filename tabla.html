@@ -5,154 +5,157 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabla Periódica</title>
     <link rel="stylesheet" href="style.css">
+    <script src="API.js"></script>
 </head>
 <body>
+    <h1> TABLA PERIODICA</h1>
     <table>
         <tr>
-            <td class="alkali-metal">1<br>H</td>
+            <td class="alkali-metal" data-number="1">1<br>H</td>
             <td class="empty" colspan="16"></td>
-            <td class="noble-gas">2<br>He</td>
+            <td class="noble-gas" data-number="2">2<br>He</td>
         </tr>
         <tr>
-            <td class="alkali-metal">3<br>Li</td>
-            <td class="alkaline-earth-metal">4<br>Be</td>
+            <td class="alkali-metal" data-number="3">3<br>Li</td>
+            <td class="alkaline-earth-metal" data-number="4">4<br>Be</td>
             <td class="empty" colspan="10"></td>
-            <td class="metalloid">5<br>B</td>
-            <td class="polyatomic-nonmetal">6<br>C</td>
-            <td class="diatomic-nonmetal">7<br>N</td>
-            <td class="diatomic-nonmetal">8<br>O</td>
-            <td class="diatomic-nonmetal">9<br>F</td>
-            <td class="noble-gas">10<br>Ne</td>
+            <td class="metalloid" data-number="5">5<br>B</td>
+            <td class="polyatomic-nonmetal" data-number="6">6<br>C</td>
+            <td class="diatomic-nonmetal" data-number="7">7<br>N</td>
+            <td class="diatomic-nonmetal" data-number="8">8<br>O</td>
+            <td class="diatomic-nonmetal" data-number="9">9<br>F</td>
+            <td class="noble-gas" data-number="10">10<br>Ne</td>
         </tr>
         <tr>
-            <td class="alkali-metal">11<br>Na</td>
-            <td class="alkaline-earth-metal">12<br>Mg</td>
+            <td class="alkali-metal" data-number="11">11<br>Na</td>
+            <td class="alkaline-earth-metal" data-number="12">12<br>Mg</td>
             <td class="empty" colspan="10"></td>
-            <td class="post-transition-metal">13<br>Al</td>
-            <td class="metalloid">14<br>Si</td>
-            <td class="polyatomic-nonmetal">15<br>P</td>
-            <td class="polyatomic-nonmetal">16<br>S</td>
-            <td class="diatomic-nonmetal">17<br>Cl</td>
-            <td class="noble-gas">18<br>Ar</td>
+            <td class="post-transition-metal" data-number="13">13<br>Al</td>
+            <td class="metalloid" data-number="14">14<br>Si</td>
+            <td class="polyatomic-nonmetal" data-number="15">15<br>P</td>
+            <td class="polyatomic-nonmetal" data-number="16">16<br>S</td>
+            <td class="diatomic-nonmetal" data-number="17">17<br>Cl</td>
+            <td class="noble-gas" data-number="18">18<br>Ar</td>
         </tr>
         <tr>
-            <td class="alkali-metal">19<br>K</td>
-            <td class="alkaline-earth-metal">20<br>Ca</td>
-            <td class="transition-metal">21<br>Sc</td>
-            <td class="transition-metal">22<br>Ti</td>
-            <td class="transition-metal">23<br>V</td>
-            <td class="transition-metal">24<br>Cr</td>
-            <td class="transition-metal">25<br>Mn</td>
-            <td class="transition-metal">26<br>Fe</td>
-            <td class="transition-metal">27<br>Co</td>
-            <td class="transition-metal">28<br>Ni</td>
-            <td class="transition-metal">29<br>Cu</td>
-            <td class="transition-metal">30<br>Zn</td>
-            <td class="post-transition-metal">31<br>Ga</td>
-            <td class="metalloid">32<br>Ge</td>
-            <td class="metalloid">33<br>As</td>
-            <td class="polyatomic-nonmetal">34<br>Se</td>
-            <td class="diatomic-nonmetal">35<br>Br</td>
-            <td class="noble-gas">36<br>Kr</td>
+            <td class="alkali-metal" data-number="19">19<br>K</td>
+            <td class="alkaline-earth-metal" data-number="20">20<br>Ca</td>
+            <td class="transition-metal" data-number="21">21<br>Sc</td>
+            <td class="transition-metal" data-number="22">22<br>Ti</td>
+            <td class="transition-metal" data-number="23">23<br>V</td>
+            <td class="transition-metal" data-number="24">24<br>Cr</td>
+            <td class="transition-metal" data-number="25">25<br>Mn</td>
+            <td class="transition-metal" data-number="26">26<br>Fe</td>
+            <td class="transition-metal" data-number="27">27<br>Co</td>
+            <td class="transition-metal" data-number="28">28<br>Ni</td>
+            <td class="transition-metal" data-number="29">29<br>Cu</td>
+            <td class="transition-metal" data-number="30">30<br>Zn</td>
+            <td class="post-transition-metal" data-number="31">31<br>Ga</td>
+            <td class="metalloid" data-number="32">32<br>Ge</td>
+            <td class="metalloid" data-number="33">33<br>As</td>
+            <td class="polyatomic-nonmetal" data-number="34">34<br>Se</td>
+            <td class="diatomic-nonmetal" data-number="35">35<br>Br</td>
+            <td class="noble-gas" data-number="36">36<br>Kr</td>
         </tr>
         <tr>
-            <td class="alkali-metal">37<br>Rb</td>
-            <td class="alkaline-earth-metal">38<br>Sr</td>
-            <td class="transition-metal">39<br>Y</td>
-            <td class="transition-metal">40<br>Zr</td>
-            <td class="transition-metal">41<br>Nb</td>
-            <td class="transition-metal">42<br>Mo</td>
-            <td class="transition-metal">43<br>Tc</td>
-            <td class="transition-metal">44<br>Ru</td>
-            <td class="transition-metal">45<br>Rh</td>
-            <td class="transition-metal">46<br>Pd</td>
-            <td class="transition-metal">47<br>Ag</td>
-            <td class="transition-metal">48<br>Cd</td>
-            <td class="post-transition-metal">49<br>In</td>
-            <td class="post-transition-metal">50<br>Sn</td>
-            <td class="metalloid">51<br>Sb</td>
-            <td class="metalloid">52<br>Te</td>
-            <td class="diatomic-nonmetal">53<br>I</td>
-            <td class="noble-gas">54<br>Xe</td>
+            <td class="alkali-metal" data-number="37">37<br>Rb</td>
+            <td class="alkaline-earth-metal" data-number="38">38<br>Sr</td>
+            <td class="transition-metal" data-number="39">39<br>Y</td>
+            <td class="transition-metal" data-number="40">40<br>Zr</td>
+            <td class="transition-metal" data-number="41">41<br>Nb</td>
+            <td class="transition-metal" data-number="42">42<br>Mo</td>
+            <td class="transition-metal" data-number="43">43<br>Tc</td>
+            <td class="transition-metal" data-number="44">44<br>Ru</td>
+            <td class="transition-metal" data-number="45">45<br>Rh</td>
+            <td class="transition-metal" data-number="46">46<br>Pd</td>
+            <td class="transition-metal" data-number="47">47<br>Ag</td>
+            <td class="transition-metal" data-number="48">48<br>Cd</td>
+            <td class="post-transition-metal" data-number="49">49<br>In</td>
+            <td class="post-transition-metal" data-number="50">50<br>Sn</td>
+            <td class="metalloid" data-number="51">51<br>Sb</td>
+            <td class="metalloid" data-number="52">52<br>Te</td>
+            <td class="diatomic-nonmetal" data-number="53">53<br>I</td>
+            <td class="noble-gas" data-number="54">54<br>Xe</td>
         </tr>
         <tr>
-            <td class="alkali-metal">55<br>Cs</td>
-            <td class="alkaline-earth-metal">56<br>Ba</td>
+            <td class="alkali-metal" data-number="55">55<br>Cs</td>
+            <td class="alkaline-earth-metal" data-number="56">56<br>Ba</td>
             <td class="lanthanide">57-71</td>
-            <td class="transition-metal">72<br>Hf</td>
-            <td class="transition-metal">73<br>Ta</td>
-            <td class="transition-metal">74<br>W</td>
-            <td class="transition-metal">75<br>Re</td>
-            <td class="transition-metal">76<br>Os</td>
-            <td class="transition-metal">77<br>Ir</td>
-            <td class="transition-metal">78<br>Pt</td>
-            <td class="transition-metal">79<br>Au</td>
-            <td class="transition-metal">80<br>Hg</td>
-            <td class="post-transition-metal">81<br>Tl</td>
-            <td class="post-transition-metal">82<br>Pb</td>
-            <td class="post-transition-metal">83<br>Bi</td>
-            <td class="metalloid">84<br>Po</td>
-            <td class="metalloid">85<br>At</td>
-            <td class="noble-gas">86<br>Rn</td>
+            <td class="transition-metal" data-number="72">72<br>Hf</td>
+            <td class="transition-metal" data-number="73">73<br>Ta</td>
+            <td class="transition-metal" data-number="74">74<br>W</td>
+            <td class="transition-metal" data-number="75">75<br>Re</td>
+            <td class="transition-metal" data-number="76">76<br>Os</td>
+            <td class="transition-metal" data-number="77">77<br>Ir</td>
+            <td class="transition-metal" data-number="78">78<br>Pt</td>
+            <td class="transition-metal" data-number="79">79<br>Au</td>
+            <td class="transition-metal" data-number="80">80<br>Hg</td>
+            <td class="post-transition-metal" data-number="81">81<br>Tl</td>
+            <td class="post-transition-metal" data-number="82">82<br>Pb</td>
+            <td class="post-transition-metal" data-number="83">83<br>Bi</td>
+            <td class="metalloid" data-number="84">84<br>Po</td>
+            <td class="metalloid" data-number="85">85<br>At</td>
+            <td class="noble-gas" data-number="86">86<br>Rn</td>
         </tr>
         <tr>
-            <td class="alkali-metal">87<br>Fr</td>
-            <td class="alkaline-earth-metal">88<br>Ra</td>
+            <td class="alkali-metal" data-number="87">87<br>Fr</td>
+            <td class="alkaline-earth-metal" data-number="88">88<br>Ra</td>
             <td class="actinide">89-103</td>
-            <td class="transition-metal">104<br>Rf</td>
-            <td class="transition-metal">105<br>Db</td>
-            <td class="transition-metal">106<br>Sg</td>
-            <td class="transition-metal">107<br>Bh</td>
-            <td class="transition-metal">108<br>Hs</td>
-            <td class="unknown">109<br>Mt</td>
-            <td class="unknown">110<br>Ds</td>
-            <td class="unknown">111<br>Rg</td>
-            <td class="transition-metal">112<br>Cn</td>
-            <td class="unknown">113<br>Nh</td>
-            <td class="post-transition-metal">114<br>Fl</td>
-            <td class="unknown">115<br>Mc</td>
-            <td class="unknown">116<br>Lv</td>
-            <td class="unknown">117<br>Ts</td>
-            <td class="unknown">118<br>Og</td>
+            <td class="transition-metal" data-number="104">104<br>Rf</td>
+            <td class="transition-metal" data-number="105">105<br>Db</td>
+            <td class="transition-metal" data-number="106">106<br>Sg</td>
+            <td class="transition-metal" data-number="107">107<br>Bh</td>
+            <td class="transition-metal" data-number="108">108<br>Hs</td>
+            <td class="unknown" data-number="109">109<br>Mt</td>
+            <td class="unknown" data-number="110">110<br>Ds</td>
+            <td class="unknown" data-number="111">111<br>Rg</td>
+            <td class="transition-metal" data-number="112">112<br>Cn</td>
+            <td class="unknown" data-number="113">113<br>Nh</td>
+            <td class="post-transition-metal" data-number="114">114<br>Fl</td>
+            <td class="unknown" data-number="115">115<br>Mc</td>
+            <td class="unknown" data-number="116">116<br>Lv</td>
+            <td class="unknown" data-number="117">117<br>Ts</td>
+            <td class="unknown" data-number="118">118<br>Og</td>
         </tr>
         <tr>
             <td class="empty" colspan="2"></td>
-            <td class="lanthanide">57<br>La</td>
-            <td class="lanthanide">58<br>Ce</td>
-            <td class="lanthanide">59<br>Pr</td>
-            <td class="lanthanide">60<br>Nd</td>
-            <td class="lanthanide">61<br>Pm</td>
-            <td class="lanthanide">62<br>Sm</td>
-            <td class="lanthanide">63<br>Eu</td>
-            <td class="lanthanide">64<br>Gd</td>
-            <td class="lanthanide">65<br>Tb</td>
-            <td class="lanthanide">66<br>Dy</td>
-            <td class="lanthanide">67<br>Ho</td>
-            <td class="lanthanide">68<br>Er</td>
-            <td class="lanthanide">69<br>Tm</td>
-            <td class="lanthanide">70<br>Yb</td>
-            <td class="lanthanide">71<br>Lu</td>
+            <td class="lanthanide" data-number="57">57<br>La</td>
+            <td class="lanthanide" data-number="58">58<br>Ce</td>
+            <td class="lanthanide" data-number="59">59<br>Pr</td>
+            <td class="lanthanide" data-number="60">60<br>Nd</td>
+            <td class="lanthanide" data-number="61">61<br>Pm</td>
+            <td class="lanthanide" data-number="62">62<br>Sm</td>
+            <td class="lanthanide" data-number="63">63<br>Eu</td>
+            <td class="lanthanide" data-number="64">64<br>Gd</td>
+            <td class="lanthanide" data-number="65">65<br>Tb</td>
+            <td class="lanthanide" data-number="66">66<br>Dy</td>
+            <td class="lanthanide" data-number="67">67<br>Ho</td>
+            <td class="lanthanide" data-number="68">68<br>Er</td>
+            <td class="lanthanide" data-number="69">69<br>Tm</td>
+            <td class="lanthanide" data-number="70">70<br>Yb</td>
+            <td class="lanthanide" data-number="71">71<br>Lu</td>
             <td class="empty"></td>
         </tr>
         <tr>
             <td class="empty" colspan="2"></td>
-            <td class="actinide">89<br>Ac</td>
-            <td class="actinide">90<br>Th</td>
-            <td class="actinide">91<br>Pa</td>
-            <td class="actinide">92<br>U</td>
-            <td class="actinide">93<br>Np</td>
-            <td class="actinide">94<br>Pu</td>
-            <td class="actinide">95<br>Am</td>
-            <td class="actinide">96<br>Cm</td>
-            <td class="actinide">97<br>Bk</td>
-            <td class="actinide">98<br>Cf</td>
-            <td class="actinide">99<br>Es</td>
-            <td class="actinide">100<br>Fm</td>
-            <td class="actinide">101<br>Md</td>
-            <td class="actinide">102<br>No</td>
-            <td class="actinide">103<br>Lr</td>
+            <td class="actinide" data-number="89">89<br>Ac</td>
+            <td class="actinide" data-number="90">90<br>Th</td>
+            <td class="actinide" data-number="91">91<br>Pa</td>
+            <td class="actinide" data-number="92">92<br>U</td>
+            <td class="actinide" data-number="93">93<br>Np</td>
+            <td class="actinide" data-number="94">94<br>Pu</td>
+            <td class="actinide" data-number="95">95<br>Am</td>
+            <td class="actinide" data-number="96">96<br>Cm</td>
+            <td class="actinide" data-number="97">97<br>Bk</td>
+            <td class="actinide" data-number="98">98<br>Cf</td>
+            <td class="actinide" data-number="99">99<br>Es</td>
+            <td class="actinide" data-number="100">100<br>Fm</td>
+            <td class="actinide" data-number="101">101<br>Md</td>
+            <td class="actinide" data-number="102">102<br>No</td>
+            <td class="actinide" data-number="103">103<br>Lr</td>
             <td class="empty"></td>
-        </tr>
+        </tr>        
     </table>
+    <div id="info-elemento"></div>
 </body>
 </html>
